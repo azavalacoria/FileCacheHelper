@@ -44,7 +44,6 @@
 		AEFD3C8F235E715600AF8AAF = {
 			isa = PBXGroup;
 			children = (
-				AEFD3CB2235E719800AF8AAF /* CacheFile.swift */,
 				AEFD3C9A235E715600AF8AAF /* FileCacheHElper */,
 				AEFD3C99235E715600AF8AAF /* Products */,
 			);
@@ -61,6 +60,7 @@
 		AEFD3C9A235E715600AF8AAF /* FileCacheHElper */ = {
 			isa = PBXGroup;
 			children = (
+				AEFD3CB4235E75D900AF8AAF /* domains */,
 				AEFD3C9B235E715600AF8AAF /* AppDelegate.swift */,
 				AEFD3C9D235E715600AF8AAF /* SceneDelegate.swift */,
 				AEFD3CA2235E715600AF8AAF /* ContentView.swift */,
@@ -79,6 +79,14 @@
 				AEFD3CA7235E715800AF8AAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEFD3CB4235E75D900AF8AAF /* domains */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD3CB2235E719800AF8AAF /* CacheFile.swift */,
+			);
+			path = domains;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
